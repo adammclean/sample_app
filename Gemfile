@@ -43,5 +43,8 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Add bcrypt hash function with has_secure_password in our password_digest
+	gem 'bcrypt',               '3.1.7'
 end
 
